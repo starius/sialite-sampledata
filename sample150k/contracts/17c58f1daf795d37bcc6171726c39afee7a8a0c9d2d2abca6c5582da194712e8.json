@@ -1,0 +1,213 @@
+{
+    "contract": {
+        "id": "17c58f1daf795d37bcc6171726c39afee7a8a0c9d2d2abca6c5582da194712e8",
+        "source": {
+            "block": "0000000000002e49473ef8b7642864849f64c160c5ecdaf1b4cfbb9c4cf2f96a",
+            "blocki": 39766,
+            "tx": "1829f7bef6ebb39cf585cf2031d65255c99ab78064f98f982fccfb931dafe481",
+            "index": 0,
+            "index0": null
+        },
+        "filesize": 0,
+        "filemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+        "windowstart": 48405,
+        "windowend": 48693,
+        "payout": "277664602521600612099502480",
+        "validproofoutputs": [
+            {
+                "value": "266835683023258188227622480",
+                "unlockhash": "a366559c75d49c09724a3f4a34cf16709a0f891ec10390a12158c985526a9597cb93e1084bed",
+                "id": "b5aebb32689305c38e22844188de9aa44b42d9509ca2636aea0e0d7aa90dbf1d",
+                "spent": null
+            },
+            {
+                "value": "0",
+                "unlockhash": "53c4d986d53320e1748a5435fa64dd91b4d269b4c31e9ea5a2fddcc95d7d47c2bb58f8ffd0f7",
+                "id": "bb2e0cf5cd6d97c91f86589b48cf8769c6f5f75048490c1de4a5daed989a32a6",
+                "spent": {
+                    "block": "000000000000080d7960831ede04fda28618e30ce062bd788d0f8885f8f05086",
+                    "blocki": 58430,
+                    "tx": "654ef8a326fd5fd29df69188018b0c544e414c50c79a924bb687740da68d1296",
+                    "index": 9,
+                    "index0": null
+                }
+            }
+        ],
+        "missedproofoutputs": [
+            {
+                "value": "266835683023258188227622480",
+                "unlockhash": "a366559c75d49c09724a3f4a34cf16709a0f891ec10390a12158c985526a9597cb93e1084bed",
+                "id": "7f95df4e3ddb93eee67e7a96cbfb8a3986596189087955d2bf1dc1e44f638db3",
+                "spent": null
+            },
+            {
+                "value": "0",
+                "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                "id": "5cef27946f5125307d3f721bfafe63b4660659aac505d3814a38ea423729ef2b",
+                "spent": null
+            }
+        ],
+        "unlockhash": "9100b61f05320f3e8aca65313220de316067b68d54e79b2cdf4adcaaf32e71e09e058932cc57",
+        "revisionnumber": 0
+    },
+    "revisions": [
+        {
+            "source": {
+                "block": "00000000000068ba4e79ee92497ce8faa57c352535fcd68b8bfe39c822fb37b2",
+                "blocki": 39768,
+                "tx": "3de574aea61cfca6ad12465fbf69cd396ae54d6af5175359ca3fb05c585cabdc",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "17c58f1daf795d37bcc6171726c39afee7a8a0c9d2d2abca6c5582da194712e8",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "FM9wqe7c8JL52QYXVdwRDXcSV/CrNOkPMfl2MP1ixnA="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "UYTzoPIMc7vdFK8GrXMkmEzeEhwnqHBsoo8JYhKVmFA="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 1,
+            "newfilesize": 4194304,
+            "newfilemerkleroot": "77ef80086ec70a1136b576d0af1517288f47da6c5d927c2ad566a270d7b42d35",
+            "newwindowstart": 48405,
+            "newwindowend": 48693,
+            "newvalidproofoutputs": [
+                {
+                    "value": "263036650232218179947336371",
+                    "unlockhash": "a366559c75d49c09724a3f4a34cf16709a0f891ec10390a12158c985526a9597cb93e1084bed",
+                    "id": "b5aebb32689305c38e22844188de9aa44b42d9509ca2636aea0e0d7aa90dbf1d",
+                    "spent": null
+                },
+                {
+                    "value": "3799032791040008280286109",
+                    "unlockhash": "53c4d986d53320e1748a5435fa64dd91b4d269b4c31e9ea5a2fddcc95d7d47c2bb58f8ffd0f7",
+                    "id": "bb2e0cf5cd6d97c91f86589b48cf8769c6f5f75048490c1de4a5daed989a32a6",
+                    "spent": {
+                        "block": "000000000000080d7960831ede04fda28618e30ce062bd788d0f8885f8f05086",
+                        "blocki": 58430,
+                        "tx": "654ef8a326fd5fd29df69188018b0c544e414c50c79a924bb687740da68d1296",
+                        "index": 9,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "263036650232218179947336371",
+                    "unlockhash": "a366559c75d49c09724a3f4a34cf16709a0f891ec10390a12158c985526a9597cb93e1084bed",
+                    "id": "7f95df4e3ddb93eee67e7a96cbfb8a3986596189087955d2bf1dc1e44f638db3",
+                    "spent": null
+                },
+                {
+                    "value": "3799032791040008280286109",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "5cef27946f5125307d3f721bfafe63b4660659aac505d3814a38ea423729ef2b",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "9100b61f05320f3e8aca65313220de316067b68d54e79b2cdf4adcaaf32e71e09e058932cc57"
+        }
+    ],
+    "proof": {
+        "parentid": "17c58f1daf795d37bcc6171726c39afee7a8a0c9d2d2abca6c5582da194712e8",
+        "segment": [
+            136,
+            241,
+            56,
+            51,
+            117,
+            65,
+            115,
+            83,
+            85,
+            140,
+            129,
+            210,
+            51,
+            113,
+            66,
+            187,
+            107,
+            192,
+            224,
+            158,
+            103,
+            234,
+            237,
+            244,
+            147,
+            242,
+            24,
+            42,
+            232,
+            52,
+            151,
+            205,
+            147,
+            45,
+            144,
+            225,
+            178,
+            177,
+            98,
+            185,
+            19,
+            28,
+            64,
+            149,
+            38,
+            141,
+            57,
+            1,
+            93,
+            148,
+            37,
+            223,
+            235,
+            52,
+            112,
+            191,
+            129,
+            178,
+            121,
+            181,
+            26,
+            109,
+            143,
+            192
+        ],
+        "hashset": [
+            "6e286ac486b49f52cebd8f288a0ef5a46b0383ce257052377da4dc13c502e67c",
+            "30d584f3d973e7587b54621a734addfe2c9210c546ace270e50291ac4ee3258d",
+            "384a44c3a8368451e1fc6a574b3d6a3c9da49db98c2499b0195232861197e94a",
+            "176b89e17cf3417a123b2fed85fcfdc8e357ece284cf8328d50850ccb111a41f",
+            "9054bff2edd2d58803ea179d7968d2054ef5ede94a1882d20dd5a9cde51b4f0b",
+            "cc0b11a505b8f1c0d67f30db4ccb2073d670660372dc3bc96ed4c087817e2205",
+            "908241c460fb94e69282a3fc2aae5b74dbaba342d8f9632d761d8ab06daf8bc6",
+            "71f9081c4ebd98a7203e600fe2a1cbc5af5d08b7f86df96d1abd37d6b01ea30e",
+            "6bb4d7bc58cf78b9ff5b7dfef98c5126b0d43eeb058a033cc27514c2b9612e8b",
+            "796f0ffd500ba03a6886a44262137acaf83532742f388f2565473a98bf29e50d",
+            "35221482930019f896f2a27871f5278ae8fea60a8da18b9539071b0fc480e093",
+            "50a83acd1b21b6e6fb9e67789e5145bed908a19e4c4ad014d361a03b80550854",
+            "59b79065a13af1f24cdccf95e34c57c73f2c59ece42217708cd9a80b458d8cc3",
+            "d97a4e8021241514bd0e92f75d542e84d092e07ee6fd52bcf73742f8f0f1b0ab",
+            "a95976ed6a9caadb684792bf177bc54b8fc9e46cd84c3668cdd74ba6214d08de",
+            "b432a4031e8051818d465c001dcc51a816ea96e6f5eef9a6a21a10cacd65fa95"
+        ],
+        "source": {
+            "block": "0000000000008c80fa1020024c45e3bd28ccf6efb296b0a124d905735e35df0d",
+            "blocki": 48408,
+            "tx": "dab0865906728aef70d9ef6459eef99e02dab47ff2bcc6694f9c986341da7564",
+            "index": 0,
+            "index0": null
+        }
+    }
+}

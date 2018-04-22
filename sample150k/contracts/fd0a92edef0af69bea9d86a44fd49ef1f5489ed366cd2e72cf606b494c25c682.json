@@ -1,0 +1,793 @@
+{
+    "contract": {
+        "id": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+        "source": {
+            "block": "0000000000002e49473ef8b7642864849f64c160c5ecdaf1b4cfbb9c4cf2f96a",
+            "blocki": 39766,
+            "tx": "0dfa2536a2aef0c79a1a192aa14ec8ac6e37885dda227f24a5118da69ab5723d",
+            "index": 0,
+            "index0": null
+        },
+        "filesize": 0,
+        "filemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+        "windowstart": 48405,
+        "windowend": 48549,
+        "payout": "46902804479999701805768411",
+        "validproofoutputs": [
+            {
+                "value": "45073595105279713435348411",
+                "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                "spent": null
+            },
+            {
+                "value": "0",
+                "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                "spent": {
+                    "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                    "blocki": 125500,
+                    "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                    "index": 3,
+                    "index0": null
+                }
+            }
+        ],
+        "missedproofoutputs": [
+            {
+                "value": "45073595105279713435348411",
+                "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                "spent": null
+            },
+            {
+                "value": "0",
+                "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                "spent": null
+            }
+        ],
+        "unlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6",
+        "revisionnumber": 0
+    },
+    "revisions": [
+        {
+            "source": {
+                "block": "00000000000068ba4e79ee92497ce8faa57c352535fcd68b8bfe39c822fb37b2",
+                "blocki": 39768,
+                "tx": "582e9b2c50184e6766a364c97cc28564f144d627bc0cce5dc5c75345ba9c4c88",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 5,
+            "newfilesize": 20971520,
+            "newfilemerkleroot": "c327f3305aec25d7fdbf5fd7b63bedac2bf6954861d77e3dfe33c934f1268af5",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "41864952545279733914781441",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "3208642559999979520566970",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "41864952545279733914781441",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "3208642559999979520566970",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "00000000000063ee1d50926a76ddbdd9c8245aed648cd27237cab2d80b06ddd6",
+                "blocki": 39769,
+                "tx": "2a69fd493b83bd5c391db492e292501ff475cf1b8fb2e1352f70fa417778626f",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 13,
+            "newfilesize": 54525952,
+            "newfilemerkleroot": "8d5ca49674c34b4e508e7e98940b285c51f354b39aff8ad783dd5a07f067f208",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "36732312835413100007622649",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "8341282269866613427725762",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "36732312835413100007622649",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "8341282269866613427725762",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "00000000000015ed1b05294be49fceebb055a2ac4dde91b47a57c90acb68f6c8",
+                "blocki": 39770,
+                "tx": "a137ce81d1527d5cfdb09f39512f716c74aed61265370d13cdb7ade495acb686",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 18,
+            "newfilesize": 75497472,
+            "newfilemerkleroot": "fb8a6fc597b6b8d775cae3b2cd7eae6fc099fd0b5e08ac6b90acd6fbdec29494",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "33524710113279787147085496",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "11548884991999926288262915",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "33524710113279787147085496",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "11548884991999926288262915",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "000000000001076d73cc3a77aa6e68c3128b8022eff2960186a14901651b1e9e",
+                "blocki": 39771,
+                "tx": "ca0da4b74555b0fdacfd5429d2c6aaa176c2c776d5ef2ec55cdbbf23386def62",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 36,
+            "newfilesize": 150994944,
+            "newfilemerkleroot": "a7829862f83f580ad7b107e65198a0c31ba6b6403761027700d3c747b23e1943",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "21978944634879860838912024",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "23094650470399852596436387",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "21978944634879860838912024",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "23094650470399852596436387",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "00000000000095276581a945fa62d986f84fe703970e012fd6792a51abc548a6",
+                "blocki": 39772,
+                "tx": "575835aea480cd091898b1ee11f7de908b4297c7cdad3c992e8d3bc44f828b25",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 41,
+            "newfilesize": 171966464,
+            "newfilemerkleroot": "636ff0a6e853fa84a00b26fd23d885c4f1af3c91b91a6f92f91dff595333a8fb",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "18772084654079881306967592",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "26301510451199832128380819",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "18772084654079881306967592",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "26301510451199832128380819",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "000000000000aa79fb87454d99eaa3617ac98cd93bda2519901acc84b736feaf",
+                "blocki": 39773,
+                "tx": "d682ca38f3e742047a42be7a4cce82d8cb6a7bad0b4563a14dd8048debb536e9",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 44,
+            "newfilesize": 184549376,
+            "newfilemerkleroot": "b92c6d51acc2dbad484bfb5428fd786493566b70182140724535c067017988fd",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "16848236052479893586094315",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "28225359052799819849254096",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "16848236052479893586094315",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "28225359052799819849254096",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "0000000000005d571d9a45dcf3478f90015ea4454908247455099bf52238db79",
+                "blocki": 39774,
+                "tx": "714ea41f2a1e23d36868abb668f926a3989f3806ab45f57e5111c4a970bce286",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 47,
+            "newfilesize": 197132288,
+            "newfilemerkleroot": "5ce4bfba0c0ba8ac40370ba5733d22e01ea25d612559519fe566e7bfd79f51e0",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "14924610273279905863798854",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "30148984831999807571549557",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "14924610273279905863798854",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "30148984831999807571549557",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "00000000000050f043e7e8ffdc78e2a685a37225a9ff8279df669738b6a8f760",
+                "blocki": 39775,
+                "tx": "656c7a52de5026a0ab09f621aa67658e8fd9c9ed1b078cd92f539e65f21cd534",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 65,
+            "newfilesize": 272629760,
+            "newfilemerkleroot": "48933bdc2ca50e9134fa97ec8587455d138145cbc9cb630873739a416ba06ce4",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "3384192532479979521492984",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "41689402572799733913855427",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "3384192532479979521492984",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "41689402572799733913855427",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "0000000000005aef81fcf229ec7bd8ba1cde3dd7c5606ad8e5ae9c8416b17663",
+                "blocki": 39776,
+                "tx": "21f7ae49cf84cc4c7d0219106041a2c7af5f2a698896120892fa0d95be31527d",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 66,
+            "newfilesize": 276824064,
+            "newfilemerkleroot": "b996b433289aed1b029aa9a8898ba49bc4da307580f4c61d3e7bb573f3336b35",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "2743132487679983613113042",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "42330462617599729822235369",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "2743132487679983613113042",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "42330462617599729822235369",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        },
+        {
+            "source": {
+                "block": "0000000000005aef81fcf229ec7bd8ba1cde3dd7c5606ad8e5ae9c8416b17663",
+                "blocki": 39776,
+                "tx": "ecfee5df568df38b945e0e611f49db0bcdbe1f4b516f2e150833c58842f165a9",
+                "index": 0,
+                "index0": null
+            },
+            "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "YMgo7YRRS4EZEJqTqns8yLpXppZz/4sWHsZlbDX90Dw="
+                    },
+                    {
+                        "algorithm": "ed25519",
+                        "key": "Vo69uXpX9oLoAj2hPapVJ8DhQkOO9ZP21ABmTYryX/g="
+                    }
+                ],
+                "signaturesrequired": 2
+            },
+            "newrevisionnumber": 70,
+            "newfilesize": 293601280,
+            "newfilemerkleroot": "dba0a9deb571a73a0e1f6bf575729ab33c633d7ff40a3624cfe8d2de718022a6",
+            "newwindowstart": 48405,
+            "newwindowend": 48549,
+            "newvalidproofoutputs": [
+                {
+                    "value": "179115130879999978171090",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "477b03c816680e21a9d4b36af3ce90123e743fd241954fdc2745a710ea5af992",
+                    "spent": null
+                },
+                {
+                    "value": "44894479974399713457177321",
+                    "unlockhash": "f485e7788cc912b227ea268fa5784ca791cbb02f08929d5846834a466afc00f19e1a8ee7b782",
+                    "id": "3a3f8ee9d676759ff3d47a6c4327dd29030dd2b3b7d224933f464169cc5b1c9b",
+                    "spent": {
+                        "block": "00000000000000266eb85fbf1fab1849935cdf90eca4afffc8841b51e2b45d20",
+                        "blocki": 125500,
+                        "tx": "ee181ab8fb8f142dbb646181f526be08d43047b93ad603291213f03ae6d633d2",
+                        "index": 3,
+                        "index0": null
+                    }
+                }
+            ],
+            "newmissedproofoutputs": [
+                {
+                    "value": "179115130879999978171090",
+                    "unlockhash": "58e91084bd8cd83def671add59e29887d569c19c4b7939524c445e2e252e181e1280672ffcae",
+                    "id": "b9a583ee9ab00adeb21d231c0a907177ba775b3dfa5809626ace4903cdc75bcd",
+                    "spent": null
+                },
+                {
+                    "value": "44894479974399713457177321",
+                    "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69",
+                    "id": "97f503045fbadacb2813483857a8679b1f383f34d00771a8be82774d83478bbc",
+                    "spent": null
+                }
+            ],
+            "newunlockhash": "21875cb7b532d860edb8b5c5238720ba759d5f11d148e6673bb8bfcc7d8df8f0b4b3a060d8f6"
+        }
+    ],
+    "proof": {
+        "parentid": "fd0a92edef0af69bea9d86a44fd49ef1f5489ed366cd2e72cf606b494c25c682",
+        "segment": [
+            180,
+            74,
+            246,
+            182,
+            138,
+            33,
+            129,
+            224,
+            112,
+            3,
+            103,
+            254,
+            94,
+            168,
+            104,
+            239,
+            66,
+            186,
+            211,
+            28,
+            13,
+            19,
+            95,
+            218,
+            164,
+            180,
+            96,
+            28,
+            148,
+            240,
+            225,
+            242,
+            4,
+            22,
+            143,
+            220,
+            122,
+            86,
+            190,
+            171,
+            102,
+            150,
+            211,
+            240,
+            24,
+            139,
+            43,
+            36,
+            212,
+            223,
+            187,
+            45,
+            89,
+            202,
+            162,
+            71,
+            201,
+            129,
+            13,
+            96,
+            219,
+            220,
+            77,
+            24
+        ],
+        "hashset": [
+            "7bb172cd1956e4a041db6e4d00b34fe455f4e13f188d0d974d00b3c6d4e1da73",
+            "f0abec1acc8a2035473bca67cb9c50f9d9e10270e27cf7b18d61243bb8cc7022",
+            "e20894d8812f1304fcc507aa1f4867c564f24a196eb66e0af3c7a6b4a1be0964",
+            "57da3b5cea97e3f3081bb13eea6ec3e0bd31bb826277fff5bad09fbbe5ab2fd1",
+            "5852829236f9d7bb84129f662cd55aacabfa735206b73c571fe2c1b201800e74",
+            "ba4729dff7459cc4414dcdc81dabd4497ee0036150006683498e07ae9e116782",
+            "f440da07b65d2aea395a4208b2489401320234fdf67fd7fd7545b0dd8884dc3b",
+            "0a5feebcd383c9af81634f98314ebd745d5ad884cfea202dafdefccbe68ee8c6",
+            "462566ae3be7c05a0f176178dea040ea32b38415491bd0ea65c0cb2364c08208",
+            "0c1511ec1f41c43422508b12d2605560621ad6ba2b081e3b3b8bd465d9872b79",
+            "e0fb4071c4d6b77cfbc9e1dd43b6c482a76baf49abb9eed752f67fbc3fd88785",
+            "acdf1e6091af05136ece65aeac7f9ee0c537ffa52a028f13dfed2e02f24175ab",
+            "f184379868c3020a81519e91bb1983d8b856f18cd701b1ed345b29f736965aea",
+            "9e3b4538f2fe2ab4e090623da2c3ed65625aa10ec5d083ebe7498288711eda75",
+            "2056523bbe271ca2cb40bfdf2a5f8a78fe38a465c51946a8fdfeb10c6e2180f9",
+            "c2dfcdef2e5c166281a65b368b121cb512ee526810ec58105ce924c593241bd1",
+            "358564cbb195072e6cea01e39aaa650ac8108b923f827cd844469aaaca7b7d11",
+            "a45867fcdf95cdf4cba84b627f619c42382cac50a8a2e14161f2f5c5ce6529d0",
+            "304b8b16e85a9025a7021dc9ace0e9d47e066715d7369b7926ec69b3eddbf154",
+            "2bf819d1f3e59c8f97ac488a60d6754a6d4d671f1280e32f921e6add335447c2"
+        ],
+        "source": {
+            "block": "0000000000008c80fa1020024c45e3bd28ccf6efb296b0a124d905735e35df0d",
+            "blocki": 48408,
+            "tx": "c8f44a71558986d562a9395dc812ee042f4ba95342b34e56e9d85e6ad89362c0",
+            "index": 0,
+            "index0": null
+        }
+    }
+}

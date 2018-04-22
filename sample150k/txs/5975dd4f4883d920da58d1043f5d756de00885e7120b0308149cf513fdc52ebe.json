@@ -1,0 +1,77 @@
+{
+    "id": "5975dd4f4883d920da58d1043f5d756de00885e7120b0308149cf513fdc52ebe",
+    "block": "000000000000015511525d39e108970241cd5719b881e9e33c1a05c2b1bf1784",
+    "blocki": 106272,
+    "size": 463,
+    "siacoininputs": [
+        {
+            "parentid": "487a206596fe752a96e9b3147b40d659a002862510ea4813db033db6442342fb",
+            "unlockconditions": {
+                "timelock": 0,
+                "publickeys": [
+                    {
+                        "algorithm": "ed25519",
+                        "key": "A7VfMSzr55ucd60lxWwuF1+eaGkWyXPiZfTao9Aa3eM="
+                    }
+                ],
+                "signaturesrequired": 1
+            },
+            "parent": {
+                "value": "9690650000000000000000000000",
+                "unlockhash": "3ea0c364dd5881f8476aa70aa4fefcf60f4d04e1e0ba19de722676ee5fb20983d7443499b859"
+            },
+            "source": {
+                "block": "000000000000015511525d39e108970241cd5719b881e9e33c1a05c2b1bf1784",
+                "blocki": 106272,
+                "tx": "ce08412f43b664d832d88696971a9760ecdeeb7d5c9b6a4fd4f938813745e0b2",
+                "index": 0,
+                "nature": "siacoin_output",
+                "index0": null
+            }
+        }
+    ],
+    "siacoinoutputs": [
+        {
+            "value": "9689900000000000000000000000",
+            "unlockhash": "b574f8df4b0cecbf7c376a4498902814313b29ef2cac6d23d2b60aa55d4919a0d3eaba4854a3",
+            "id": "11cbaf84999f1975cc944f5932ad847309a7d006031c49bac096df33c691ff13",
+            "spent": {
+                "block": "00000000000000122f97f5ff52f1f1c9a146b544257f1000917f19e71a509b51",
+                "blocki": 118229,
+                "tx": "acd174bcf49ffd91a8688ff292318a5f5878cc952ee77fc09dab385385257cf6",
+                "index": 1,
+                "index0": null
+            }
+        }
+    ],
+    "filecontracts": null,
+    "filecontractrevisions": null,
+    "storageproofs": null,
+    "siafundinputs": null,
+    "siafundoutputs": null,
+    "minerfees": [
+        "750000000000000000000000"
+    ],
+    "arbitrarydata": [],
+    "transactionsignatures": [
+        {
+            "parentid": "487a206596fe752a96e9b3147b40d659a002862510ea4813db033db6442342fb",
+            "publickeyindex": 0,
+            "timelock": 0,
+            "coveredfields": {
+                "wholetransaction": true,
+                "siacoininputs": [],
+                "siacoinoutputs": [],
+                "filecontracts": [],
+                "filecontractrevisions": [],
+                "storageproofs": [],
+                "siafundinputs": [],
+                "siafundoutputs": [],
+                "minerfees": [],
+                "arbitrarydata": [],
+                "transactionsignatures": []
+            },
+            "signature": "4ElM5XV4r2bhNcC9qCRSPMSbj1y2/MyWwWbXzpNhEX5oUNAQ9tNv+TDDnFBL1xHORLZNv7+SIK5NH9fbLs0BCA=="
+        }
+    ]
+}
